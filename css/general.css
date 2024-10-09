@@ -31,6 +31,7 @@
     - Tints: #888 
     - Shades: #333
     #6f6f6f (lightest grey allowed on  #fdf2e9)
+    #767676 (lightest grey allowed on #fff)
 
 --- 05 SHADOWS
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075)
@@ -90,6 +91,10 @@ body {
 
 .grid--4-cols {
   grid-template-columns: repeat(4, 1fr);
+}
+
+.grid--5-cols {
+  grid-template-columns: repeat(5, 1fr);
 }
 
 .grid--center-v {
