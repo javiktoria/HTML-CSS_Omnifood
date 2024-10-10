@@ -11,6 +11,8 @@
     />
     <link rel="stylesheet" href="css/general.css" />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -24,7 +26,9 @@
   </head>
   <body>
     <header class="header">
-      <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      <a href="#">
+        <img class="logo" alt="Omnifood logo" src="img/omnifood-logo.png" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
           <li><a class="main-nav-link" href="#">How it works</a></li>
@@ -34,6 +38,10 @@
           <li><a class="main-nav-link nav-cta" href="#">Try for free</a></li>
         </ul>
       </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
     </header>
     <main>
       <section class="section-hero">
@@ -189,7 +197,7 @@
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.9</strong> rating (537 reviews)</span>
+                  <span><strong>4.9</strong> rating (537)</span>
                 </li>
               </ul>
             </div>
@@ -220,7 +228,7 @@
                 </li>
                 <li class="meal-attribute">
                   <ion-icon class="meal-icon" name="star-outline"></ion-icon>
-                  <span><strong>4.8</strong> rating (441 reviews)</span>
+                  <span><strong>4.8</strong> rating (441)</span>
                 </li>
               </ul>
             </div>
@@ -275,7 +283,6 @@
         <div class="testimonials-container">
           <span class="subheading">Testimonials</span>
           <h2 class="heading-secondary">Once you try it, you can't go back</h2>
-
           <div class="testimonials">
             <figure class="testimonial">
               <img

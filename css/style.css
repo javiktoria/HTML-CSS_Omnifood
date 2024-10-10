@@ -7,6 +7,8 @@
   justify-content: space-between;
   align-items: center;
 
+  position: relative;
+
   background-color: #fdf2e9;
   height: 9.6rem;
   padding: 0 4.8rem;
@@ -20,12 +22,9 @@
 /* NAVIGATION */
 /******************************/
 
-.main-nav {
-}
-
 .main-nav-list {
   display: flex;
-  gap: 3.2rem;
+  gap: 4.8rem;
   align-items: center;
 
   list-style: none;
@@ -48,9 +47,6 @@
   color: #cf711f;
 }
 
-.nav-cta {
-}
-
 .main-nav-link.nav-cta:link,
 .main-nav-link.nav-cta:visited {
   padding: 1.2rem 2.4rem;
@@ -62,6 +58,25 @@
 .main-nav-link.nav-cta:hover,
 .main-nav-link.nav-cta:active {
   background-color: #cf711f;
+}
+
+/* MOBILE */
+.btn-mobile-nav {
+  display: none;
+
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.icon-mobile-nav {
+  width: 4.8rem;
+  height: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
 }
 
 /******************************/
@@ -84,13 +99,14 @@
   padding: 0 3.2rem;
 }
 
-.hero-text-box {
-}
-
 .hero-description {
   font-size: 2rem;
   line-height: 1.6;
   margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
 }
 
 .delivered-meals {
@@ -124,9 +140,6 @@
 
 .delivered-text span {
   color: #cf711f;
-}
-
-.hero-img-box {
 }
 
 .hero-img {
@@ -169,9 +182,6 @@
 
 .section-how {
   padding: 9.6rem 0;
-}
-
-.step-text-box {
 }
 
 .step-number {
@@ -315,9 +325,6 @@
   width: 2.4rem;
   height: 2.4rem;
   color: #e67e22;
-}
-
-.diets {
 }
 
 .all-recipes {
@@ -479,9 +486,6 @@
 /* FEATURES */
 /******************************/
 
-.feature {
-}
-
 .feature-icon {
   margin-bottom: 3.2rem;
   padding: 1.6rem;
@@ -570,12 +574,6 @@
   color: #aaa;
 }
 
-.cta-form select {
-}
-
-.cta-form button {
-}
-
 .cta-img-box {
   background-image: linear-gradient(
       to right bottom,
@@ -649,9 +647,6 @@
   color: #767676;
 }
 
-.address-col {
-}
-
 .footer-heading {
   margin-bottom: 4rem;
   font-size: 1.8rem;
@@ -666,9 +661,6 @@
 
 .address {
   margin-bottom: 2.4rem;
-}
-
-.nav-col {
 }
 
 .footer-nav {
